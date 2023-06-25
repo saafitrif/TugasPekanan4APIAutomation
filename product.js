@@ -16,7 +16,7 @@ describe("Authorization - Registration", function()
                  } 
             );
             expect(response.status).to.eql(201);
-            token = response.body.data.accessToken;
+               token = response.body.data.accessToken;
 
         });
     
@@ -37,3 +37,24 @@ describe("Authorization - Registration", function()
         });
 }
 );
+
+describe("Users", function()
+{
+          
+    it ("3_TC_ Create User", async function(){
+        const response = await request.post("/users")
+        .set("Authorization", "Bearer ${accessToken}")
+        .send
+            (
+                {
+                    "name": "Kasir 1",
+                    "email": "user@example.com",
+                    "password": "jiasda2321@"
+                }
+                 
+            );
+            expect(response.statusCode).to.eql(200);
+            expect(response.body.name).to.eql("Kasir 1");
+            
+        });
+});
