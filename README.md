@@ -7,4 +7,4 @@ Click terminal : npx mocha NamaFile.js
 1AuthRegistration.js
 2createUser.js
 3getUser.js
-4updateUser
+4updateUser.js
