@@ -1,6 +1,5 @@
 const request = require("supertest")("https://kasir-api.belajarqa.com");
 const expect = require("chai").expect;
-var catId="";
 var token="";
 
 describe("Authorization - Registration", function()
