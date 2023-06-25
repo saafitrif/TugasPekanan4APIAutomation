@@ -1,0 +1,24 @@
+{
+  "name": "tugaspekanan4apiautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "TugasPekanan4.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saafitrif/TugasPekanan4APIAutomation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saafitrif/TugasPekanan4APIAutomation/issues"
+  },
+  "homepage": "https://github.com/saafitrif/TugasPekanan4APIAutomation#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "jsonschema": "^1.4.1",
+    "supertest": "^6.3.3"
+  }
+}
